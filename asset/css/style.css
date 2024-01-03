@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+    font-family: 'Sora', sans-serif;
+    font-weight: 400;
+    height: 1000vh;
+    --primary-color:#10375C;
+}
+a {
+    text-decoration: none;
+    color: #C9D2DA;
+}
+a:hover {
+    color: orangered;
+}
+/* common */
+.main-content {
+    width: 1170px;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 205px;
+    height: 60px;
+    border-radius: 22px;
+    background: #2E80CE;
+    padding:15px 0;
+    text-align: center;
+    color: #FFF;
+}
+.btn:hover {
+    opacity: .8;
+}
+/* nav */
+nav {
+    background: var(--primary-color);
+    padding: 30px 0 10px;
+    position: sticky;
+    top: -20px;
+}
+.nav-block {
+    display: grid;
+    grid-template-columns: 7% 1fr 17%;
+    align-items: center;
+
+}
+.nav__navbar ul {
+    display: flex;
+    gap: 0 42px;
+    justify-content: center;
+}
+.nav__navbar ul a {
+    padding: 10px;
+}
+.nav__btn-block {
+    display: flex;
+    gap: 0 28px;
+}
+.nav__btn--1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav__cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 104px;
+    height: 44px;
+    padding: 8px 0;
+    text-align: center;
+}
+header {
+
+    background: var(--primary-color);
+}
+.hero {
+    display: grid;
+    grid-template-columns: 55% 45%;
+
+    padding: 76px 0 110px;
+
+}
+.hero__title {
+    width: 517px;
+    color: #FFF;
+    font-family: Sora;
+    font-size: 7rem;
+    font-weight: 600;
+    line-height: 1.14; /* 114.286% */
+    letter-spacing: -1.4px;
+    margin-top: 60px;
+}
+.hero__desc {
+    width: 468px;
+    color: #C9D2DA;
+    font-family: Sora;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1.67; /* 166.667% */
+    margin: 22px 0 38px;
+    }
+.hero__contact {
+    display: flex;
+    gap: 38px;
+    align-items: center;
+}
+.hero__phone {
+    color: #FFF;
+    text-align: center;
+    font-size: 1.8rem;
+    line-height: 1.67; /* 166.667% */
+    }
+.hero__img-block {
+    display: flex;
+    align-items: center;
+}
+.hero__img-1 {
+    width: 330px;
+    height: 540px;
+    object-fit: cover;
+}
+.hero__img-2 {
+    width: 210px;
+    height: 410px;
+    object-fit: cover;
+    margin-left: -8px;
+}
