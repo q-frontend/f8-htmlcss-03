@@ -45,6 +45,7 @@ nav {
     padding: 30px 0 10px;
     position: sticky;
     top: -20px;
+    z-index: 2;
 }
 .nav-block {
     display: grid;
